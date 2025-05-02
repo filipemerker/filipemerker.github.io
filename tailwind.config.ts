@@ -19,6 +19,10 @@ const config = {
     },
     extend: {
       colors: {
+        "fira-blue": "#5a6f85",
+        "fira-yellow": "#c3a520",
+        "fira-cyan": "#a3bcc0",
+        "fira-red": "#ad8dab",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

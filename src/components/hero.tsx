@@ -1,6 +1,6 @@
 "use client";
 
-import { Info } from "./info";
+import { Info } from "./home/info";
 import { Snapshots } from "./home/snapshots";
 
 export function Hero() {

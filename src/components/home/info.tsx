@@ -29,8 +29,8 @@ export function Info() {
           </h1>
 
           <p className="mt-6 text-xl leading-8 text-muted-foreground">
-            Hi, I'm Philip. Over the years I've build many projects on the
-            full-stack with tool like ReactJS, JavaScript, TypeScript, SQL,
+            Hi, I&#39;m Philip. Over the years I&#39;ve build many projects on
+            the full-stack with tool like ReactJS, JavaScript, TypeScript, SQL,
             PostgreSQL, MongoDB, AWS, NodeJS, Redux, NextJS, Jest, Express,
             Vite, NestJS.
           </p>
