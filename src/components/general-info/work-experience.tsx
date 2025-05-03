@@ -5,6 +5,7 @@ import {
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
+import Image from "next/image";
 
 const jobs = [
   {
@@ -69,7 +70,7 @@ export function WorkExperience() {
           {jobs.map((job) => (
             <li key={job.company} className="flex items-center justify-between">
               <div className="flex items-center gap-4">
-                <img
+                <Image
                   src={job.logo}
                   alt={job.company}
                   width={40}
