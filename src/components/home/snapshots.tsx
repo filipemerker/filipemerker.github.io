@@ -77,7 +77,7 @@ export const Snapshots: FC = () => {
   return (
     <motion.div
       className="hidden md:block
-                 w-[calc(50vw-30px)] h-[calc(100vh-60px)]
+                 w-[calc(50vw-80px)] h-[calc(100vh-60px)]
                  relative overflow-hidden
                  rounded-3xl
                  bg-gradient-to-br from-cyan-100/70 via-blue-200/70 to-indigo-200/70"
