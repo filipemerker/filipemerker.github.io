@@ -5,7 +5,6 @@ import {
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
-import Image from "next/image";
 
 const jobs = [
   {
