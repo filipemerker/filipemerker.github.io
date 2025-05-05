@@ -14,16 +14,21 @@ const GLOBE_CONFIG: COBEOptions = {
   onRender: () => {},
   devicePixelRatio: 2,
   phi: 0,
-  theta: -0.7,
+  theta: -0.1,
   dark: 0,
   diffuse: 0,
   mapSamples: 16000,
   mapBrightness: 5.5,
   mapBaseBrightness: 0.3,
   baseColor: [255, 255, 255],
-  markerColor: [251 / 255, 100 / 255, 21 / 255],
+  markerColor: [109 / 255, 152 / 255, 233 / 255],
   glowColor: [0.87, 0.89, 0.91],
-  markers: [{ location: [-30.0346, -51.2177], size: 0.08 }],
+  markers: [
+    { location: [-30.0346, -51.2177], size: 0.08 },
+    { location: [52.2297, 21.0122], size: 0.08 },
+    { location: [43.6532, -79.3832], size: 0.08 },
+    { location: [50.9375, 6.9603], size: 0.08 },
+  ],
 };
 
 export function Globe({
