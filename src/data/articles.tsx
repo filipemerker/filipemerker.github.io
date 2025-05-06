@@ -7,10 +7,10 @@ export const articles: Article[] = [
     title: "Novel template management system at Voiceflow",
     summary: (
       <>
-        Led development of a self-service template system using GitHub, S3,
-        Redis and Logux for real-time sync. The system offloaded 30,000+ lines
-        of JSON from the codebase and reduced template deployment time from 2
-        days to 20 minutes.
+        Led development of a self-service template system using React, S3, Redis
+        and Logux for real-time sync. The system offloaded 30,000+ lines of JSON
+        from the codebase and reduced template deployment time from 2 days to 20
+        minutes.
       </>
     ),
   },
@@ -102,7 +102,7 @@ export const articles: Article[] = [
     },
     summary: (
       <>
-        Built over the years and I plan to build many more. Some of them were
+        Built over the years and I plan on building many more. Some of them were
         useful, some were not. But they were all fun to build:
         <br />
         <br />
@@ -115,7 +115,7 @@ export const articles: Article[] = [
               Hybrid micro-frontend with React and Svelte
             </SharedLink>{" "}
             - This was build to showcase the power of Module Federation on a
-            company-wide talk.
+            company-wide talk I gave at SoftServe.
           </li>
           <li className="mb-4">
             <SharedLink
@@ -125,7 +125,7 @@ export const articles: Article[] = [
               Seamless Time Tracker
             </SharedLink>{" "}
             - A pomodoro timer app built with React and Styled Components. (old
-            stack)
+            stack, but still looks decent)
           </li>
           <li className="mb-4">
             <SharedLink

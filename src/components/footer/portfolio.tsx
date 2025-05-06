@@ -3,7 +3,7 @@ import { SparklesText } from "../ui/sparkles-text";
 
 export function Portfolio() {
   return (
-    <Card className="w-110 shadow-none rounded-none m-0 border-t-0">
+    <Card className="w-full lg:w-110 shadow-none rounded-none m-0 border-t-0">
       <CardHeader className="flex flex-row items-center gap-2 pb-0">
         <span className="font-semibold text-lg text-black">
           This website was completely{" "}
