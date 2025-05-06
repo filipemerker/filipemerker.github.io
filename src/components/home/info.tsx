@@ -27,17 +27,19 @@ export function Info() {
         >
           <div className="max-w-2xl">
             <h1 className="text-4xl lg:text-6xl font-bold tracking-tight text-foreground">
-              Senior full-stack engineer
-              <AuroraText className="text-lg xl:ml-4 relative -top-1 xl:-top-2 w-full xl:w-auto">
-                focused on the front-end
+              <span className="mr-4">Senior full-stack engineer</span>
+              <AuroraText className="text-lg relative top-[13px] lg:top-[8px] xl:-top-[1px] w-full xl:w-auto leading-5">
+                with a passion
+                <br />
+                for the front-end
               </AuroraText>
             </h1>
 
             <p className="mt-6 text-lg lg:text-xl lg:leading-8 text-muted-foreground">
               Hi, I&#39;m <strong>Philip</strong>. Over the years I&#39;ve built
               many full-stack projects with tool like React, Redux,
-              JavaScript/TypeScript, PostgreSQL/MongoDB, AWS/Firebase, NodeJS,
-              NextJS, Express, Vite, NestJS and Testing.
+              JavaScript/TypeScript, PostgreSQL/MongoDB, AWS/Firebase, Node,
+              NextJS, Express, Vite, NestJS, Jest, Cypress ...and many more.
             </p>
           </div>
         </motion.section>

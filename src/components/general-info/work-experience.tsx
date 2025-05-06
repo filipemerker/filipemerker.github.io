@@ -5,49 +5,11 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { AuroraText } from "../ui/aurora-text";
-
-const jobs = [
-  {
-    logo: "/logos/voiceflowhq_logo.jpeg",
-    company: "Voiceflow",
-    role: "Senior Software Engineer",
-    dates: "Feb 2022 — Present",
-  },
-  {
-    logo: "/logos/softserve_logo.jpeg",
-    company: "SoftServe",
-    role: "Senior JavaScript Engineer",
-    dates: "Jan 2020 — Feb 2022",
-  },
-  {
-    logo: "/logos/prat.jpeg",
-    company: "Praticantes",
-    role: "Principal Engineer",
-    dates: "Nov 2017 — Dec 2019",
-  },
-  {
-    logo: "/logos/metaoficial_logo.jpeg",
-    company: "Gaucha ZH",
-    role: "Front-end Engineer",
-    dates: "Mar 2017 — Nov 2017",
-  },
-  {
-    logo: "/logos/somostrinca_logo.jpeg",
-    company: "Trinca",
-    role: "Front-end Developer",
-    dates: "Mar 2016 — Mar 2017",
-  },
-  {
-    logo: "/logos/mmda_digital_logo.jpeg",
-    company: "Multiple agencies",
-    role: "Front-end Developer",
-    dates: "Feb 2012 — Mar 2016",
-  },
-];
+import { jobs } from "@/data/jobs";
 
 export function WorkExperience() {
   return (
-    <Card className="md:w-110 w-full mx-auto shadow-none border-b-1 rounded-none">
+    <Card className="md:w-100 w-full mx-auto shadow-none border-b-1 rounded-none">
       <CardHeader className="flex flex-row items-center gap-2 mb-2 pb-0">
         <span className="font-semibold text-lg text-gray-700">
           <AuroraText>12+ years</AuroraText> building for the web
@@ -60,9 +22,7 @@ export function WorkExperience() {
             <li key={job.company} className="flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <div>
-                  <div className="font-semibold text-black dark:text-white">
-                    {job.company}
-                  </div>
+                  <div className="font-light text-black">{job.company}</div>
                   <div className="text-gray-400 text-sm">{job.role}</div>
                 </div>
               </div>
@@ -80,16 +40,18 @@ export function WorkExperience() {
             block
             w-full
             rounded-sm
+            relative
+            overflow-hidden
 
             bg-gradient-to-br
-              from-[#CFFAFE]
-              via-[#BFDBFE]
-              to-[#C7D2FE]
+              from-[#9FD7FA]
+              via-[#8FB9FE]
+              to-[#97A2FE]
 
             py-3
             text-center
             font-medium
-            text-black
+            text-white
 
             transition
             mt-2
@@ -101,9 +63,20 @@ export function WorkExperience() {
 
             duration-300
             ease-out
+            group
           "
         >
-          Get my resume with full history <span aria-hidden>↓</span>
+          Download my resume{" "}
+          <span
+            aria-hidden
+            className="
+              inline-block
+              group-hover:animate-[rollDownAndUp_0.6s_ease-out_forwards]
+              relative
+            "
+          >
+            ↓
+          </span>
         </a>
       </CardFooter>
     </Card>

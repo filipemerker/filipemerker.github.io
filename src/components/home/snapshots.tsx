@@ -113,7 +113,7 @@ export const Snapshots: FC = () => {
     (idx: number) => {
       const INITIAL_DELAY = 0.5;
       const STAGGER_DELAY_IN = 0.2;
-      const STAGGER_DELAY_OUT = 0.1;
+      const STAGGER_DELAY_OUT = 0.07;
 
       switch (true) {
         case !animatedIn:
@@ -142,7 +142,7 @@ export const Snapshots: FC = () => {
           animate="animate"
           variants={spinningTextVariants}
         >
-          <SpinningText className="text-muted-foreground ">
+          <SpinningText className="text-muted-foreground">
             my projects • my projects •
           </SpinningText>
         </motion.div>

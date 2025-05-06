@@ -43,14 +43,14 @@ export function GeneralInfo() {
         <div className="w-[1px] h-full bg-border hidden lg:block" />
       </div>
 
-      <h1 className="w-full text-5xl text-center text-black font-light py-20 px-10 bg-white border-y-1 flex justify-center gap-3">
+      <h1 className="w-full lg:text-4xl text-4xl text-center text-black font-light py-20 px-10 bg-white border-y-1 flex justify-center gap-3">
         <motion.span
           variants={titleVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           custom={0}
         >
-          career
+          some career
         </motion.span>
         <motion.span
           variants={titleVariants}
@@ -62,11 +62,11 @@ export function GeneralInfo() {
         </motion.span>
       </h1>
 
-      <div className="flex lg:flex-row flex-col xl:gap-20 gap-10 w-full justify-between px-10 md:px-20 border-none pt-20">
+      <div className="flex lg:flex-row flex-col xl:gap-20 gap-10 w-full justify-between px-10 md:px-20 border-none py-20">
         <div className="flex flex-col gap-4">
           <Achievements />
         </div>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-10">
           <WorkExperience />
           <RemoteWork />
         </div>
