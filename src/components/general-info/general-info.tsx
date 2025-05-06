@@ -44,24 +44,24 @@ export function GeneralInfo() {
       </div>
 
       <h1 className="w-full text-4xl text-center text-black font-light py-20 px-10 bg-white border-y-1 flex justify-center gap-3">
-        <span className="hidden lg:block">
-          <motion.span
-            variants={titleVariants}
-            initial="hidden"
-            animate={inView ? "visible" : "hidden"}
-            custom={0}
-          >
-            some career
-          </motion.span>
-          <motion.span
-            variants={titleVariants}
-            initial="hidden"
-            animate={inView ? "visible" : "hidden"}
-            custom={1}
-          >
-            <AuroraText>highlights</AuroraText>
-          </motion.span>
-        </span>
+        <motion.span
+          variants={titleVariants}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          custom={0}
+          className="hidden lg:block"
+        >
+          some career
+        </motion.span>
+        <motion.span
+          variants={titleVariants}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          custom={1}
+          className="hidden lg:block"
+        >
+          <AuroraText>highlights</AuroraText>
+        </motion.span>
 
         <span className="lg:hidden">
           some career <AuroraText>highlights</AuroraText>
