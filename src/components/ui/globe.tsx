@@ -28,6 +28,7 @@ const GLOBE_CONFIG: COBEOptions = {
     { location: [52.2297, 21.0122], size: 0.08 },
     { location: [43.6532, -79.3832], size: 0.08 },
     { location: [50.9375, 6.9603], size: 0.08 },
+    { location: [31.9686, -99.9018], size: 0.08 },
   ],
 };
 
@@ -53,6 +54,7 @@ export function Globe({
 
   const updatePointerInteraction = (value: number | null) => {
     pointerInteracting.current = value;
+
     if (canvasRef.current) {
       canvasRef.current.style.cursor = value !== null ? "grabbing" : "grab";
     }

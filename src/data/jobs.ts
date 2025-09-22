@@ -2,9 +2,14 @@ import { Job } from "./types";
 
 export const jobs: Job[] = [
   {
+    company: "NinjaOne",
+    role: "Senior Software Engineer",
+    dates: "Jun 2025 - Present",
+  },
+  {
     company: "Voiceflow",
     role: "Senior Software Engineer",
-    dates: "Feb 2022 - Present",
+    dates: "Feb 2022 - May 2025",
   },
   {
     company: "SoftServe",
