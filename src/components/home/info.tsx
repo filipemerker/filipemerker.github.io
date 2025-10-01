@@ -15,7 +15,10 @@ export function Info() {
           transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
         >
           <Avatar className="h-24 w-24">
-            <AvatarImage src="/profile.jpg" alt="Filipe Merker" />
+            <AvatarImage
+              src="/filipemerker.github.io/profile.jpg"
+              alt="Filipe Merker"
+            />
             <AvatarFallback>FM</AvatarFallback>
           </Avatar>
         </motion.section>

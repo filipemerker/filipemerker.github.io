@@ -34,7 +34,7 @@ export function WorkExperience() {
 
       <CardFooter>
         <a
-          href="/Philip Merker - Javascript Engineer Resume.pdf"
+          href="/filipemerker.github.io/Philip Merker - Javascript Engineer Resume.pdf"
           download
           className="
             block
