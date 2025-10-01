@@ -18,19 +18,13 @@ export function BaseCard({
 }
 
 export const CardTypeScript = (
-  <BaseCard
-    style={{ backgroundImage: "url(/filipemerker.github.io/site1.png)" }}
-  />
+  <BaseCard style={{ backgroundImage: "url(/site1.png)" }} />
 );
 
 export const CardReactNext = (
-  <BaseCard
-    style={{ backgroundImage: "url(/filipemerker.github.io/site2.png)" }}
-  />
+  <BaseCard style={{ backgroundImage: "url(/site2.png)" }} />
 );
 
 export const CardNodeAPI = (
-  <BaseCard
-    style={{ backgroundImage: "url(/filipemerker.github.io/site3.png)" }}
-  />
+  <BaseCard style={{ backgroundImage: "url(/site3.png)" }} />
 );
